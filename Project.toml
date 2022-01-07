@@ -1,6 +1,6 @@
 name = "bliss_jll"
 uuid = "508c9074-7a14-5c94-9582-3d4bc1871065"
-version = "0.77.0+0"
+version = "0.77.0+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
