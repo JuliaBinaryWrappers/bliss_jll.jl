@@ -1,288 +1,143 @@
 [[bliss]]
 arch = "aarch64"
-git-tree-sha1 = "84013c88e21700dc7815a2540b163bde9b2b3e22"
+git-tree-sha1 = "8f00b9687934ffb56ded6cc748d002c4f52a7911"
 os = "macos"
 
     [[bliss.download]]
-    sha256 = "c6c5fe527ff759a38170398e7237bad5697e690d11f0fc54859c56018778bb34"
+    sha256 = "9953a951c475e3147bc88d6c206476dfd8155d6f491b7c6097f940af28b46d36"
     url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.aarch64-apple-darwin.tar.gz"
 [[bliss]]
 arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "c66cfd5395292848f7e20e6678b4f00fa2b10b04"
+git-tree-sha1 = "d74a3fcb02208aca6b81168383671fa19b0ae83e"
 libc = "glibc"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "65a48ce0189ddacc6e099fce28c2381e0fee2cc137efddd96fd379c6106f25d2"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.aarch64-linux-gnu-cxx03.tar.gz"
+    sha256 = "34481ffe5c6819e751953a7f49f65487b72a293049328a5348a74f6640a23380"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.aarch64-linux-gnu.tar.gz"
 [[bliss]]
 arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "59ce1a714e15436152c0dbc678b8055326520996"
-libc = "glibc"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "f19a5114a9cd658f65ec1270939630db36e4875498188562c3bf2bfbe608bff0"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.aarch64-linux-gnu-cxx11.tar.gz"
-[[bliss]]
-arch = "aarch64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "359c18ce0f9acbed6ed051cb62e72486aaf55f76"
+git-tree-sha1 = "dedf3d932df11588b583be39774f0214e740099d"
 libc = "musl"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "788a5033ef1611dd927e46d8e76d9060f7b9d2e0d559e274c02adc6b105efcaf"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.aarch64-linux-musl-cxx03.tar.gz"
-[[bliss]]
-arch = "aarch64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "15377a7e60ba7edb0608aa46e70c4bb78fd46001"
-libc = "musl"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "ef4057eaae2af227d7f7b3372cd3196678fc191d259adc554803d9f0474be989"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "a33391882507958af42c00c7c32687ab5723c395cab7b7da1f407b3cfb881e01"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.aarch64-linux-musl.tar.gz"
 [[bliss]]
 arch = "armv6l"
 call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8b41f7c87d128533d075fd05fac47e4e6fa88618"
+git-tree-sha1 = "e6fb47aa815c40b759f64c401ab22a6f9df33ec8"
 libc = "glibc"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "390416750a016acefad04907212bc67e8bb3a2743b8d5ca68f708fe3c58a6e4d"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv6l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "889697e8c0d9cec2edc27eda794d38124270bbd3ad99910844b37d6508fb7623"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv6l-linux-gnueabihf.tar.gz"
 [[bliss]]
 arch = "armv6l"
 call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d73c413ec4368955e701c9a4907c422f920b1142"
-libc = "glibc"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "008d11fae23d8b327555d7ce19e786f03205c97c1d37b723d3b734284fe8efdb"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv6l-linux-gnueabihf-cxx11.tar.gz"
-[[bliss]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8e391faf4b48e52f402d1feb3cd6a46287736c4c"
+git-tree-sha1 = "de69f895fdb382e6533e114875cada91273e7d52"
 libc = "musl"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "1263a9a7657320d6d092b4c5d759855e87f35fbdec777a7ce43f4c7243632cd8"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv6l-linux-musleabihf-cxx03.tar.gz"
-[[bliss]]
-arch = "armv6l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "511b5048f86e8c66ae78d8e6cd9a5f5729c0cd22"
-libc = "musl"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "919931421e2d5b673391a8a0e38bb1078af8099d7998b91207a489399763dc1f"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "78a83c900791d1b8ba0bd185d45b1800d795d7088ed3bca7f4db937025dfb8cc"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv6l-linux-musleabihf.tar.gz"
 [[bliss]]
 arch = "armv7l"
 call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8be8626bb4110435bfec1369c6f639140fb2d327"
+git-tree-sha1 = "885e24cfd721900e4d7531c688286392fe092ea3"
 libc = "glibc"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "0f912d2222ef6d68fddf60a7d0cfd03c01c6fa780eff7e6da3adbd4fbfbddba1"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv7l-linux-gnueabihf-cxx03.tar.gz"
+    sha256 = "13cd7a6e5be6566af4edfa80cd05abb458fe223b65149fc22856e691de0547e9"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv7l-linux-gnueabihf.tar.gz"
 [[bliss]]
 arch = "armv7l"
 call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "cf48edb147a6b379391e8b9860fa52414ab1b598"
+git-tree-sha1 = "2af8ba741b038422843c93ebd88d0117218757e9"
+libc = "musl"
+os = "linux"
+
+    [[bliss.download]]
+    sha256 = "db3cde694327b6ddef84430eb90eb7f974f73ed1eac883981141ae0e7560eda9"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv7l-linux-musleabihf.tar.gz"
+[[bliss]]
+arch = "i686"
+git-tree-sha1 = "2700f6023c11b840d24823cd6b50ab3ff561ca41"
 libc = "glibc"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "8c593f0e02660ce1bba1eebef2a94c39e95631975736cdc908a77e7aaa4382c8"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "1bed44f5dd6f93aea68cb029d45f54dde92f3e94b48fd9652f217d513d6feecb"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-linux-gnu.tar.gz"
 [[bliss]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "450adf205a88ecd6e9f4fd7c1d2ad31cc3080ba6"
+arch = "i686"
+git-tree-sha1 = "55d3f81b045bbc14c6011d4ba2f66f5827bfd2c4"
 libc = "musl"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "b72b032670532d6cdbb84c10533eb22b28d6e952e449cbd866d80197af5b6adf"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv7l-linux-musleabihf-cxx03.tar.gz"
-[[bliss]]
-arch = "armv7l"
-call_abi = "eabihf"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "6eb685816d1e7ed1344b5dc869cebe71fae0234f"
-libc = "musl"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "3e4129a3c3e8bbcae792ceeb14a370bd5fb79895d0dac0a6a60fe87819ee3125"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "23efc0f80cd7db7fca998bb5111be6b3b86046db34919c64822d445f4694ea93"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-linux-musl.tar.gz"
 [[bliss]]
 arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "d4a7b775d88966fd3d0f9ca4ffe437bc070b1dd0"
-libc = "glibc"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "f3439da9d49e51bd49738086d1bd45771544a4c6e6eb6ec5e2aaf30d58a9af93"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-linux-gnu-cxx03.tar.gz"
-[[bliss]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "4b1d9678e6e314c438240663102a8677a8b26192"
-libc = "glibc"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "50eb91d5cb7807b92b418bb70b655fe3cc6683ca059aec1913282eaa79323c53"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-linux-gnu-cxx11.tar.gz"
-[[bliss]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "12a0c602ca981eb63dfc2a43e2f0e281ad6a392a"
-libc = "musl"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "826b32aa8a535a350822550763ff8a697849d8a7767414c1d8ff443d46cd7bb5"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-linux-musl-cxx03.tar.gz"
-[[bliss]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "0d6aa9b5bbfb56413364e555122350e49ec8cc65"
-libc = "musl"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "016167ea2b9572b9af8609cc414344c61ad458a14aa19fcba663692e7e1cafb6"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-linux-musl-cxx11.tar.gz"
-[[bliss]]
-arch = "i686"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8880202122d070228fd1dc457436eea38c0ec68c"
+git-tree-sha1 = "f8b0f9d9795acc7c1213f121a4c87dc02a89875a"
 os = "windows"
 
     [[bliss.download]]
-    sha256 = "10daa247d77d47e93e3b31a0a3e2bca73ad296d233a932b67240a4c58c69152c"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-w64-mingw32-cxx03.tar.gz"
-[[bliss]]
-arch = "i686"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "ca429262f382400e6d7b27c55830f152912fc047"
-os = "windows"
-
-    [[bliss.download]]
-    sha256 = "fab1a571a60cf1064f4ce2bcb6bdc500f5ccf1bfcb15ed54a0b324bb95011ac1"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "36315223bd91f227c02eedd7a6d729d97df2b8016865edba49d9793250fa2875"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.i686-w64-mingw32.tar.gz"
 [[bliss]]
 arch = "powerpc64le"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "06294cfafcad98bc2cd6e986712658c308ca8526"
+git-tree-sha1 = "518ceb33e92207507a37891025f61d3e4545c980"
 libc = "glibc"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "6b4139ce33ed25b89be11dbc04d7b22ad62a0c9d683d7761e2b711b1d22f23f5"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.powerpc64le-linux-gnu-cxx03.tar.gz"
-[[bliss]]
-arch = "powerpc64le"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "bfdf059b7edc71d902f45d579a832366afb2fdbc"
-libc = "glibc"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "103d72875da91a91e18d6f1982af76ba8de315f415a39644ded87760f288486d"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "cf5382f4255e41e5085e2426894653cb0f2bc08686b6c150e84645ebad4bb776"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.powerpc64le-linux-gnu.tar.gz"
 [[bliss]]
 arch = "x86_64"
-git-tree-sha1 = "1cfc5d001519ad8764833d42e1de110f1d29546d"
+git-tree-sha1 = "e39ec13f769319fed9a38cceaa40d79f5f033df7"
 os = "macos"
 
     [[bliss.download]]
-    sha256 = "35cb79dd195cb1072686b4254b18c2be589d0e8b62eb238617099fa8c63bb70c"
+    sha256 = "c412031c71aa22b89930722684f6e2823a434c9fd07f7334716b01869562d138"
     url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-apple-darwin.tar.gz"
 [[bliss]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "8c4b3570f441e297d1ccf0b20be83814d2d5d9e1"
+git-tree-sha1 = "cc3ea7806b600c67b57b9b90855d6c58767ba596"
 libc = "glibc"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "4bdb54405675e1568aafad9808b50762c46c481821a5e1cd8050a68228853ae1"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-linux-gnu-cxx03.tar.gz"
+    sha256 = "39e7b04849a3d9bae79520be22e039747c8f345fcca2fd33ad4db7b89e0c218f"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-linux-gnu.tar.gz"
 [[bliss]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "d7fea66ca7de1315feb1f0dbbc3243e78302d935"
-libc = "glibc"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "456b9f5631f776b46e99e845de39fc7d132fc07e95803107a8c96a174e48e9e1"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-linux-gnu-cxx11.tar.gz"
-[[bliss]]
-arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "051767c9b6a45e99babbb4a675fa3c905f4b9f3c"
+git-tree-sha1 = "a0948edb6f6b3d410b3ac55e9a56e185cec474c0"
 libc = "musl"
 os = "linux"
 
     [[bliss.download]]
-    sha256 = "4d7785cacf0e423cc52762264152f023f21e3ebeac8c0e3a4b6befee3e3367ac"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-linux-musl-cxx03.tar.gz"
+    sha256 = "f81af8ace3646fb6dd7e847548049fb0f8ac11d12aa74bacbf63de96bb440bb1"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-linux-musl.tar.gz"
 [[bliss]]
 arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "724256e6a8128d3b6ee4c763da94acb1a60f86b3"
-libc = "musl"
-os = "linux"
-
-    [[bliss.download]]
-    sha256 = "e37601ec33fb70102dd70fae83da714faa5d9dff7619fc0caa1f8cd7428283a7"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-linux-musl-cxx11.tar.gz"
-[[bliss]]
-arch = "x86_64"
-git-tree-sha1 = "281a3671ca7b1cf443ef01ce4ebdb7015fa24c5c"
+git-tree-sha1 = "6f5e4e1c99a08f7103d0e36c4999feba799ffd26"
 os = "freebsd"
 
     [[bliss.download]]
-    sha256 = "2ead5c632e97da88d4509267660e46823fa6ca2bd295ecb1bf7a189dc21607ef"
+    sha256 = "b708f36a0a372131835703ef4163a74b6efab38e9779642243d60cde77d15962"
     url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-unknown-freebsd.tar.gz"
 [[bliss]]
 arch = "x86_64"
-cxxstring_abi = "cxx03"
-git-tree-sha1 = "fe74a280a226b4deb8efe3c6d102a1e7f527f508"
+git-tree-sha1 = "1b2406d0b568b8b2088a45cfeb7e5ba19ff3a37a"
 os = "windows"
 
     [[bliss.download]]
-    sha256 = "aac0f755bdc1a119624bb5ba8dcc969f28f59a5beda257e43098d895da67bf75"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-w64-mingw32-cxx03.tar.gz"
-[[bliss]]
-arch = "x86_64"
-cxxstring_abi = "cxx11"
-git-tree-sha1 = "b1833b07296226f7bc98d33dd3be50501ef70591"
-os = "windows"
-
-    [[bliss.download]]
-    sha256 = "967390a09b1ffceffbda8a5c35214ba8a2e97ab41293f662d9bbaa5ff4bb9dd2"
-    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "2c72dc5a7c45129dd8bbd364df91049987254069eda108355f5f01be94cf3c36"
+    url = "https://github.com/JuliaBinaryWrappers/bliss_jll.jl/releases/download/bliss-v0.77.0+0/bliss.v0.77.0.x86_64-w64-mingw32.tar.gz"
